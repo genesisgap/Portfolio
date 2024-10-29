@@ -3,6 +3,8 @@ import Home from "./Components/Home/Home";
 import "./globals.css";
 import About from "./Components/About/About";
 import Experience from "./Components/Experience/Experience";
+import Projects from "./Components/Projects/Projects";
+import Footer from "./Components/Footer/Footer";
 
 
 
@@ -21,6 +23,9 @@ export default function RootLayout({ children }) {
         <Home />
         <About />
         <Experience />
+        <Projects />
+        <Footer />
+        
 
         {children}
       </body>

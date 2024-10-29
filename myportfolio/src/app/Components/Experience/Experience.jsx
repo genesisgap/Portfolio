@@ -11,6 +11,7 @@ import { FaAmazon } from 'react-icons/fa';
 import { SiMui } from "react-icons/si";
 
 
+
 export default function Experience() {
   return (
     <div id="Experience" className="p-10 ml-16 md:p-24">
@@ -39,7 +40,7 @@ export default function Experience() {
                     <FaReact color="#61DAF8" size={50} />
                 </span>
                 <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
-                    <SiNetlify color="white" size={50} />
+                    <SiNetlify color="cyan" size={50} />
                 </span>
                 <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
                     <SiMui  color="blue" size={50} />
@@ -52,8 +53,8 @@ export default function Experience() {
                 <h2 className="leading-tight">Software Engineer, Google</h2>
                 <p className="text-sm leading-tight font-thin">June 2024 - Present</p>
                 <ul className="text-sm p-2">
-                    <li>- work as software Developer</li>
-                    <li>- junior SDE Developer</li>
+                    <li className='capitalize'>- work as software Developer</li>
+                    <li className='capitalize'>- junior SDE Developer</li>
                 </ul>
             </span>
             </div>
@@ -63,8 +64,8 @@ export default function Experience() {
                 <h2 className="leading-tight">Software Engineer, Netflix</h2>
                 <p className="text-sm leading-tight font-thin">June 2024 - Present</p>
                 <ul className="text-sm p-2">
-                    <li>- work as software Developer</li>
-                    <li>- junior SDE Developer</li>
+                    <li className='capitalize'>- work as software Developer</li>
+                    <li className='capitalize'>- junior SDE Developer</li>
                 </ul>
             </span>
             </div>
@@ -74,8 +75,8 @@ export default function Experience() {
                 <h2 className="leading-tight">Software Engineer, Amazon</h2>
                 <p className="text-sm leading-tight font-thin">June 2024 - Present</p>
                 <ul className="text-sm p-2">
-                    <li>- work as software Developer</li>
-                    <li>- junior SDE Developer</li>
+                    <li className='capitalize'>- work as software Developer</li>
+                    <li className='capitalize'> - junior SDE Developer</li>
                 </ul>
             </span>
             </div>
